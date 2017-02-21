@@ -10,9 +10,9 @@
 		84D7F4D11E5CBD6100617A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7F4D01E5CBD6100617A9E /* AppDelegate.swift */; };
 		84D7F4D31E5CBD6100617A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7F4D21E5CBD6100617A9E /* ViewController.swift */; };
 		84D7F4D61E5CBD6100617A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D7F4D41E5CBD6100617A9E /* Main.storyboard */; };
-		84D7F4D91E5CBD6100617A9E /* Dreamster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D7F4D71E5CBD6100617A9E /* Dreamster.xcdatamodeld */; };
 		84D7F4DB1E5CBD6100617A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D7F4DA1E5CBD6100617A9E /* Assets.xcassets */; };
 		84D7F4DE1E5CBD6100617A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D7F4DC1E5CBD6100617A9E /* LaunchScreen.storyboard */; };
+		84D7F5111E5CC8B500617A9E /* Dreamster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D7F50F1E5CC8B500617A9E /* Dreamster.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		84D7F4D01E5CBD6100617A9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D7F4D21E5CBD6100617A9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84D7F4D51E5CBD6100617A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84D7F4D81E5CBD6100617A9E /* Dreamster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dreamster.xcdatamodel; sourceTree = "<group>"; };
 		84D7F4DA1E5CBD6100617A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D7F4DD1E5CBD6100617A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D7F4DF1E5CBD6100617A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D7F5101E5CC8B500617A9E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				84D7F4DA1E5CBD6100617A9E /* Assets.xcassets */,
 				84D7F4DC1E5CBD6100617A9E /* LaunchScreen.storyboard */,
 				84D7F4DF1E5CBD6100617A9E /* Info.plist */,
-				84D7F4D71E5CBD6100617A9E /* Dreamster.xcdatamodeld */,
+				84D7F50F1E5CC8B500617A9E /* Dreamster.xcdatamodeld */,
 			);
 			path = Dreamster;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 			files = (
 				84D7F4D31E5CBD6100617A9E /* ViewController.swift in Sources */,
 				84D7F4D11E5CBD6100617A9E /* AppDelegate.swift in Sources */,
-				84D7F4D91E5CBD6100617A9E /* Dreamster.xcdatamodeld in Sources */,
+				84D7F5111E5CC8B500617A9E /* Dreamster.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,13 +310,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		84D7F4D71E5CBD6100617A9E /* Dreamster.xcdatamodeld */ = {
+		84D7F50F1E5CC8B500617A9E /* Dreamster.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				84D7F4D81E5CBD6100617A9E /* Dreamster.xcdatamodel */,
+				84D7F5101E5CC8B500617A9E /* Model.xcdatamodel */,
 			);
-			currentVersion = 84D7F4D81E5CBD6100617A9E /* Dreamster.xcdatamodel */;
-			path = Dreamster.xcdatamodeld;
+			currentVersion = 84D7F5101E5CC8B500617A9E /* Model.xcdatamodel */;
+			name = Dreamster.xcdatamodeld;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
