@@ -31,20 +31,20 @@
                                 </segments>
                                 <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                             </segmentedControl>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="162" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eL1-9l-upC">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="162" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eL1-9l-upC">
                                 <rect key="frame" x="16" y="132" width="343" height="535"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="162" id="ezz-ou-6Mp" customClass="ItemCell" customModule="Dreamster" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="343" height="162"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="150" id="ezz-ou-6Mp" customClass="ItemCell" customModule="Dreamster" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ezz-ou-6Mp" id="ujB-oP-vHg">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="161"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="150"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1az-yu-q7r">
-                                                    <rect key="frame" x="8" y="8" width="327" height="145.5"/>
+                                                    <rect key="frame" x="8" y="8" width="327" height="133.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Honda cbr 250 rr 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byh-2q-ZtR">
                                                             <rect key="frame" x="116" y="8" width="203" height="21"/>
@@ -65,13 +65,13 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So this is my the biggest dream from 17 years.. I will by as fast as I will have an opportunity..." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Se8-zN-p5w">
-                                                            <rect key="frame" x="116" y="66" width="203" height="71.5"/>
+                                                            <rect key="frame" x="116" y="66" width="203" height="59.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="honda" translatesAutoresizingMaskIntoConstraints="NO" id="y1M-Od-6Ua">
-                                                            <rect key="frame" x="8" y="22" width="100" height="100"/>
+                                                            <rect key="frame" x="8" y="16" width="100" height="100"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="100" id="Xgm-4m-2FW"/>
                                                                 <constraint firstAttribute="width" constant="100" id="gTJ-wW-E3F"/>
@@ -109,7 +109,7 @@
                                             <outlet property="details" destination="Se8-zN-p5w" id="6zK-71-z9R"/>
                                             <outlet property="price" destination="s9u-gg-fvZ" id="flu-wL-U7h"/>
                                             <outlet property="thumb" destination="y1M-Od-6Ua" id="aWC-T1-Ghv"/>
-                                            <outlet property="titile" destination="Byh-2q-ZtR" id="q9X-F6-CBo"/>
+                                            <outlet property="title" destination="Byh-2q-ZtR" id="HTu-mQ-nfK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -145,7 +145,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dUr-bP-Vao" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="xLe-d7-7bh">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xLe-d7-7bh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
