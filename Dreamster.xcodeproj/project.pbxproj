@@ -21,6 +21,7 @@
 		84D7F4DB1E5CBD6100617A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D7F4DA1E5CBD6100617A9E /* Assets.xcassets */; };
 		84D7F4DE1E5CBD6100617A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D7F4DC1E5CBD6100617A9E /* LaunchScreen.storyboard */; };
 		84D7F5111E5CC8B500617A9E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D7F50F1E5CC8B500617A9E /* Model.xcdatamodeld */; };
+		84E8461B1E5D72CF00AAE5AA /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8461A1E5D72CF00AAE5AA /* MaterialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		84D7F4DD1E5CBD6100617A9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D7F4DF1E5CBD6100617A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D7F5101E5CC8B500617A9E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		84E8461A1E5D72CF00AAE5AA /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		84D7F4CF1E5CBD6100617A9E /* Dreamster */ = {
 			isa = PBXGroup;
 			children = (
+				84E846191E5D729500AAE5AA /* View */,
 				842BE28A1E5CD46200EBE7A9 /* Model */,
 				84D7F4D01E5CBD6100617A9E /* AppDelegate.swift */,
 				84D7F4D21E5CBD6100617A9E /* MainVC.swift */,
@@ -105,6 +108,14 @@
 				84D7F50F1E5CC8B500617A9E /* Model.xcdatamodeld */,
 			);
 			path = Dreamster;
+			sourceTree = "<group>";
+		};
+		84E846191E5D729500AAE5AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84E8461A1E5D72CF00AAE5AA /* MaterialView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				842BE2841E5CD40F00EBE7A9 /* ItemType+CoreDataClass.swift in Sources */,
 				842BE2831E5CD40F00EBE7A9 /* Store+CoreDataProperties.swift in Sources */,
 				84D7F4D31E5CBD6100617A9E /* MainVC.swift in Sources */,
+				84E8461B1E5D72CF00AAE5AA /* MaterialView.swift in Sources */,
 				842BE2821E5CD40F00EBE7A9 /* Store+CoreDataClass.swift in Sources */,
 				84D7F4D11E5CBD6100617A9E /* AppDelegate.swift in Sources */,
 				842BE2851E5CD40F00EBE7A9 /* ItemType+CoreDataProperties.swift in Sources */,
