@@ -22,6 +22,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         tableView.delegate = self
         tableView.dataSource = self
         
+        generateTestData()
         attemptFetch()
     }
     
@@ -64,7 +65,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
     
     //to be shure that raws are 150px
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 150.0
+        return 150
     }
     
     func attemptFetch() {
@@ -80,7 +81,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
             try controller.performFetch()
         } catch {
             let error = error as NSError
-            print("\n\n \(error)")
+            print("\(error)")
         }
         
     }
@@ -124,5 +125,23 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
             break
         }
     }
-    
 }
+
+func generateTestData(){
+    
+    let item = Item(context: context)
+    item.title = "Honda cbr 250 rr"
+    item.price = 6000
+    item.details = "Can`t wait to get a new bike"
+    
+    let item2 = Item(context: context)
+    item2.title = "Honda cbr 250 rr"
+    item2.price = 6000
+    item2.details = "Can`t wait to get a new bike"
+    
+    let item3 = Item(context: context)
+    item3.title = "Tesla Model X"
+    item3.price = 120000
+    item3.details = "Superable car for family"
+}
+
