@@ -22,7 +22,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource, NSFe
         tableView.delegate = self
         tableView.dataSource = self
         
-        generateTestData()
+//        generateTestData()
         attemptFetch()
     }
     
@@ -143,5 +143,7 @@ func generateTestData(){
     item3.title = "Tesla Model X"
     item3.price = 120000
     item3.details = "Superable car for family"
+    
+    ad.saveContext()
 }
 

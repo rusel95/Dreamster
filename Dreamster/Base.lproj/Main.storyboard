@@ -104,7 +104,10 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="1az-yu-q7r" secondAttribute="trailing" id="h0r-wp-MeA"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <outlet property="details" destination="Se8-zN-p5w" id="6zK-71-z9R"/>
                                             <outlet property="price" destination="s9u-gg-fvZ" id="flu-wL-U7h"/>
