@@ -9,8 +9,9 @@
 import UIKit
 import CoreData
 
-class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var thumbImage: UIImageView!
     @IBOutlet weak var storePicker: UIPickerView!
     @IBOutlet weak var titleField: CustomTextField!
     @IBOutlet weak var priceField: CustomTextField!
@@ -18,6 +19,7 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
    
     var stores = [Store]()
     var itemToEdit: Item?
+    var imagePicker: UIImagePickerController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +30,9 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
         
         storePicker.delegate = self
         storePicker.dataSource = self
+        
+        imagePicker = UIImagePickerController()
+        imagePicker.delegate = self
         
 //        let store1 = Store(context: context)
 //        store1.name = "Allo"
@@ -87,11 +92,18 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
         
         var item: Item!
         
+        //creating of Entity Image
+        let picture = Image(context: context)
+        picture.image = thumbImage.image
+        
         if itemToEdit == nil {
             item = Item(context: context)
         } else {
             item = itemToEdit
         }
+        
+        //associating of picture
+        item.toImage = picture
         
         if let title = titleField.text {
             item.title = title
@@ -122,6 +134,8 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
             priceField.text = "\(item.price)"
             detailsField.text = item.details
             
+            thumbImage.image = item.toImage?.image as? UIImage
+            
             if let store = item.toStore {
                 var index = 0
                 repeat {
@@ -145,6 +159,19 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
         
         _ = navigationController?.popViewController(animated: true)
         
+    }
+    
+    @IBAction func addImage(_ sender: Any) {
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            thumbImage.image = image
+        }
+        
+        imagePicker.dismiss(animated: true, completion: nil)
     }
     
     

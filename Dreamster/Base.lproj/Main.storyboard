@@ -174,6 +174,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addImage:" destination="Xk5-Oo-WYr" eventType="touchUpInside" id="eTu-ck-MnU"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cRc-Y7-NxU" customClass="CustomTextField" customModule="Dreamster" customModuleProvider="target">
                                 <rect key="frame" x="124" y="82" width="180" height="46"/>
@@ -281,6 +284,7 @@
                         <outlet property="detailsField" destination="sH1-Fb-9bn" id="2Xr-Tg-aLS"/>
                         <outlet property="priceField" destination="y1F-gh-dGF" id="EGt-Xa-qsd"/>
                         <outlet property="storePicker" destination="L6Z-IC-6eO" id="kL9-fT-Iic"/>
+                        <outlet property="thumbImage" destination="sh2-Re-WJ8" id="XkZ-qf-HUs"/>
                         <outlet property="titleField" destination="cRc-Y7-NxU" id="IP6-6I-gVv"/>
                     </connections>
                 </viewController>
