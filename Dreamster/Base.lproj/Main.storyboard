@@ -36,7 +36,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="150" id="ezz-ou-6Mp" customClass="ItemCell" customModule="Dreamster" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="150" id="ezz-ou-6Mp" customClass="ItemCell" customModule="Dreamster" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="288" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ezz-ou-6Mp" id="ujB-oP-vHg">
@@ -174,6 +174,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addImage:" destination="Xk5-Oo-WYr" eventType="touchUpInside" id="eTu-ck-MnU"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cRc-Y7-NxU" customClass="CustomTextField" customModule="Dreamster" customModuleProvider="target">
                                 <rect key="frame" x="124" y="82" width="180" height="46"/>
@@ -198,34 +201,37 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Details" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sH1-Fb-9bn" customClass="CustomTextField" customModule="Dreamster" customModuleProvider="target">
-                                <rect key="frame" x="16" y="190" width="288" height="60"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Details" minimumFontSize="11" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="sH1-Fb-9bn" customClass="CustomTextField" customModule="Dreamster" customModuleProvider="target">
+                                <rect key="frame" x="16" y="190" width="288" height="114"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="fOL-sA-vY4"/>
-                                </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUq-RP-n8s">
-                                <rect key="frame" x="16" y="328" width="288" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="select store:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUq-RP-n8s">
+                                <rect key="frame" x="16" y="324" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EUH-dq-zzu"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L6Z-IC-6eO">
-                                <rect key="frame" x="16" y="356" width="288" height="160"/>
+                                <rect key="frame" x="16" y="362" width="288" height="160"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="gaO-XU-HKP"/>
                                 </constraints>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOT-1r-gy0">
-                                <rect key="frame" x="16" y="524" width="288" height="36"/>
+                                <rect key="frame" x="16" y="530" width="288" height="30"/>
                                 <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8lD-Pn-Zbh"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Save Item">
                                     <color key="titleColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -250,6 +256,7 @@
                             <constraint firstItem="sh2-Re-WJ8" firstAttribute="leading" secondItem="2Gd-yJ-AZN" secondAttribute="leadingMargin" id="QOd-pt-Pxp"/>
                             <constraint firstItem="sh2-Re-WJ8" firstAttribute="top" secondItem="UKz-zJ-EM1" secondAttribute="bottom" constant="18" id="T2E-kg-8ED"/>
                             <constraint firstAttribute="trailingMargin" secondItem="L6Z-IC-6eO" secondAttribute="trailing" id="ThU-zU-6Ih"/>
+                            <constraint firstItem="nUq-RP-n8s" firstAttribute="top" secondItem="sH1-Fb-9bn" secondAttribute="bottom" constant="20" id="XiG-JJ-vqH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vOT-1r-gy0" secondAttribute="trailing" id="Z32-Jm-NXQ"/>
                             <constraint firstItem="cRc-Y7-NxU" firstAttribute="leading" secondItem="96K-Le-wog" secondAttribute="trailing" constant="8" id="c4y-sF-2Hy"/>
                             <constraint firstItem="nUq-RP-n8s" firstAttribute="leading" secondItem="2Gd-yJ-AZN" secondAttribute="leadingMargin" id="cAj-5A-8wu"/>
@@ -268,12 +275,16 @@
                     <navigationItem key="navigationItem" title="Add / Edit" id="jmL-OS-v0M">
                         <barButtonItem key="rightBarButtonItem" systemItem="trash" id="QeM-KC-lLr">
                             <color key="tintColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="deletePressed:" destination="Xk5-Oo-WYr" id="r2Z-h2-Ni6"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="detailsField" destination="sH1-Fb-9bn" id="2Xr-Tg-aLS"/>
                         <outlet property="priceField" destination="y1F-gh-dGF" id="EGt-Xa-qsd"/>
                         <outlet property="storePicker" destination="L6Z-IC-6eO" id="kL9-fT-Iic"/>
+                        <outlet property="thumbImage" destination="sh2-Re-WJ8" id="XkZ-qf-HUs"/>
                         <outlet property="titleField" destination="cRc-Y7-NxU" id="IP6-6I-gVv"/>
                     </connections>
                 </viewController>
