@@ -167,7 +167,7 @@
 				TargetAttributes = {
 					84D7F4CC1E5CBD6100617A9E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = FWHF624C4H;
+						DevelopmentTeam = 9UAUR69F3X;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -343,11 +343,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWHF624C4H;
+				DEVELOPMENT_TEAM = 9UAUR69F3X;
 				INFOPLIST_FILE = Dreamster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rusel95.Dreamster;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rusel95-yandex.Dreamster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -357,11 +357,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWHF624C4H;
+				DEVELOPMENT_TEAM = 9UAUR69F3X;
 				INFOPLIST_FILE = Dreamster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rusel95.Dreamster;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rusel95-yandex.Dreamster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

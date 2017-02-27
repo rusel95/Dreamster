@@ -34,6 +34,7 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
         imagePicker = UIImagePickerController()
         imagePicker.delegate = self
         
+        //!!!!!! При первом запуске этого не будет в приложении, так что нужно будет нужно здесь что-то придумать 
 //        let store1 = Store(context: context)
 //        store1.name = "Allo"
 //        let store2 = Store(context: context)
