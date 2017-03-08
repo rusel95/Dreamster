@@ -36,19 +36,19 @@ class ItemDetailsVC: UIViewController, UIPickerViewDataSource, UIPickerViewDeleg
         
         //!!!!!! При первом запуске этого не будет в приложении, так что нужно будет нужно здесь что-то придумать 
 //        let store1 = Store(context: context)
-//        store1.name = "Allo"
+//        store1.name = "Алло"
 //        let store2 = Store(context: context)
-//        store2.name = "Car DealerShip"
+//        store2.name = "Диллерский центр"
 //        let store3 = Store(context: context)
-//        store3.name = "Rozetka"
+//        store3.name = "Розетка"
 //        let store4 = Store(context: context)
-//        store4.name = "Caravan"
+//        store4.name = "Караван"
 //        let store5 = Store(context: context)
-//        store5.name = "Citrus"
+//        store5.name = "Цитрус"
 //        let store6 = Store(context: context)
-//        store6.name = "Dafi"
-//        
+//        store6.name = "Дафи"
 //        ad.saveContext()
+        
         getStores()
         
         if itemToEdit != nil {

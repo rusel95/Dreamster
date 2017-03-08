@@ -9,31 +9,31 @@
 "Se8-zN-p5w.text" = "So this is my the biggest dream from 17 years.. I will by as fast as I will have an opportunity...";
 
 /* Class = "UITextField"; placeholder = "Title"; ObjectID = "cRc-Y7-NxU"; */
-"cRc-Y7-NxU.placeholder" = "Title";
+"cRc-Y7-NxU.placeholder" = "Назва";
 
 /* Class = "UISegmentedControl"; ihb-hz-cNd.segmentTitles[0] = "Newest"; ObjectID = "ihb-hz-cNd"; */
-"ihb-hz-cNd.segmentTitles[0]" = "Newest";
+"ihb-hz-cNd.segmentTitles[0]" = "Останнi";
 
 /* Class = "UISegmentedControl"; ihb-hz-cNd.segmentTitles[1] = "Price"; ObjectID = "ihb-hz-cNd"; */
-"ihb-hz-cNd.segmentTitles[1]" = "Price";
+"ihb-hz-cNd.segmentTitles[1]" = "Цiна";
 
 /* Class = "UISegmentedControl"; ihb-hz-cNd.segmentTitles[2] = "Title"; ObjectID = "ihb-hz-cNd"; */
-"ihb-hz-cNd.segmentTitles[2]" = "Title";
+"ihb-hz-cNd.segmentTitles[2]" = "Назва";
 
 /* Class = "UINavigationItem"; title = "Add / Edit"; ObjectID = "jmL-OS-v0M"; */
-"jmL-OS-v0M.title" = "Add / Edit";
+"jmL-OS-v0M.title" = "Додати / Редагувати";
 
 /* Class = "UILabel"; text = "select store:"; ObjectID = "nUq-RP-n8s"; */
-"nUq-RP-n8s.text" = "select store:";
+"nUq-RP-n8s.text" = "вибiр магазину:";
 
 /* Class = "UILabel"; text = "$6,000"; ObjectID = "s9u-gg-fvZ"; */
 "s9u-gg-fvZ.text" = "$6,000";
 
 /* Class = "UITextField"; placeholder = "Details"; ObjectID = "sH1-Fb-9bn"; */
-"sH1-Fb-9bn.placeholder" = "Details";
+"sH1-Fb-9bn.placeholder" = "Деталi";
 
 /* Class = "UIButton"; normalTitle = "Save Item"; ObjectID = "vOT-1r-gy0"; */
-"vOT-1r-gy0.normalTitle" = "Save Item";
+"vOT-1r-gy0.normalTitle" = "Зберегти цiль";
 
 /* Class = "UITextField"; placeholder = "Price"; ObjectID = "y1F-gh-dGF"; */
-"y1F-gh-dGF.placeholder" = "Price";
+"y1F-gh-dGF.placeholder" = "Цiна";
