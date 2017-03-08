@@ -36,6 +36,10 @@
 		842BE27F1E5CD40F00EBE7A9 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		842BE2801E5CD40F00EBE7A9 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
 		842BE2811E5CD40F00EBE7A9 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84AECC181E6FDDF3007FBBA7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		84AECC191E6FDDF3007FBBA7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84AECC1A1E6FDE04007FBBA7 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		84AECC1B1E6FDE04007FBBA7 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		84BAE8FE1E5DCF8900EB07E5 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
 		84BAE9021E5DD66300EB07E5 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		84D7F4CD1E5CBD6100617A9E /* Dreamster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreamster.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,7 +171,7 @@
 				TargetAttributes = {
 					84D7F4CC1E5CBD6100617A9E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = FWHF624C4H;
+						DevelopmentTeam = 9UAUR69F3X;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -233,6 +237,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				84D7F4D51E5CBD6100617A9E /* Base */,
+				84AECC181E6FDDF3007FBBA7 /* ru */,
+				84AECC1A1E6FDE04007FBBA7 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -241,6 +247,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				84D7F4DD1E5CBD6100617A9E /* Base */,
+				84AECC191E6FDDF3007FBBA7 /* ru */,
+				84AECC1B1E6FDE04007FBBA7 /* uk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -252,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -301,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -343,11 +353,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWHF624C4H;
+				DEVELOPMENT_TEAM = 9UAUR69F3X;
 				INFOPLIST_FILE = Dreamster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rusel95.Dreamster;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rusel95-yandex.Dreamster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -357,11 +367,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWHF624C4H;
+				DEVELOPMENT_TEAM = 9UAUR69F3X;
 				INFOPLIST_FILE = Dreamster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rusel95.Dreamster;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rusel95-yandex.Dreamster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

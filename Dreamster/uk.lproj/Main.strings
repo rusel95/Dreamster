@@ -1,0 +1,39 @@
+
+/* Class = "UINavigationItem"; title = "Dreamster"; ObjectID = "BZ1-Y2-yhD"; */
+"BZ1-Y2-yhD.title" = "Dreamster";
+
+/* Class = "UILabel"; text = "Honda cbr 250 rr 2016"; ObjectID = "Byh-2q-ZtR"; */
+"Byh-2q-ZtR.text" = "Honda cbr 250 rr 2016";
+
+/* Class = "UILabel"; text = "So this is my the biggest dream from 17 years.. I will by as fast as I will have an opportunity..."; ObjectID = "Se8-zN-p5w"; */
+"Se8-zN-p5w.text" = "So this is my the biggest dream from 17 years.. I will by as fast as I will have an opportunity...";
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "cRc-Y7-NxU"; */
+"cRc-Y7-NxU.placeholder" = "Назва";
+
+/* Class = "UISegmentedControl"; ihb-hz-cNd.segmentTitles[0] = "Newest"; ObjectID = "ihb-hz-cNd"; */
+"ihb-hz-cNd.segmentTitles[0]" = "Останнi";
+
+/* Class = "UISegmentedControl"; ihb-hz-cNd.segmentTitles[1] = "Price"; ObjectID = "ihb-hz-cNd"; */
+"ihb-hz-cNd.segmentTitles[1]" = "Цiна";
+
+/* Class = "UISegmentedControl"; ihb-hz-cNd.segmentTitles[2] = "Title"; ObjectID = "ihb-hz-cNd"; */
+"ihb-hz-cNd.segmentTitles[2]" = "Назва";
+
+/* Class = "UINavigationItem"; title = "Add / Edit"; ObjectID = "jmL-OS-v0M"; */
+"jmL-OS-v0M.title" = "Додати / Редагувати";
+
+/* Class = "UILabel"; text = "select store:"; ObjectID = "nUq-RP-n8s"; */
+"nUq-RP-n8s.text" = "вибiр магазину:";
+
+/* Class = "UILabel"; text = "$6,000"; ObjectID = "s9u-gg-fvZ"; */
+"s9u-gg-fvZ.text" = "$6,000";
+
+/* Class = "UITextField"; placeholder = "Details"; ObjectID = "sH1-Fb-9bn"; */
+"sH1-Fb-9bn.placeholder" = "Деталi";
+
+/* Class = "UIButton"; normalTitle = "Save Item"; ObjectID = "vOT-1r-gy0"; */
+"vOT-1r-gy0.normalTitle" = "Зберегти цiль";
+
+/* Class = "UITextField"; placeholder = "Price"; ObjectID = "y1F-gh-dGF"; */
+"y1F-gh-dGF.placeholder" = "Цiна";
